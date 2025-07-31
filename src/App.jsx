@@ -2,7 +2,7 @@ import { Route,createRoutesFromElements,createBrowserRouter,RouterProvider,} fro
 import MainLayout from './Layout/MainLayout';
 import HomePage from './Pages/HomePage'
 import ProductsPage from './Pages/ProductsPage';
-import ProductDetailsPage from './Pages/ProductdetailsPage';
+import ProductDetailsPage from '../src/Pages/ProductDetailsPage';
 import CartPage from './Pages/CartPage';
 import CheckoutPage from './Pages/CheckoutPage';
 const App = () => {
