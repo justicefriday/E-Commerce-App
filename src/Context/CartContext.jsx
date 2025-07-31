@@ -49,7 +49,7 @@ const cartReducer = (state, action) =>  {
             : item
         ),
       };
-    case "CLERA_CART":
+    case "CLEAR_CART":
       return {
         ...state,
         cart: []
